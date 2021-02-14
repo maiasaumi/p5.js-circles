@@ -45,13 +45,19 @@ class Snowflake {
 
     //y coordinate
     this.y += pow(this.size, 0.5);
-  }
-}
 
-// 画面の最後にきた雪片を削除
-if (this.posY > height) {
-  let index = snowflakes.indexOf(this);
-  snowflakes.splice(index, 1);
+    //eliminate snowflakes at the bottom
+    if (this.y > height) {
+      let index = snowflakes.indexOf(this);
+      snowflakes.splice(index, 1);
+    }
+  }
+
+  display() {
+    // Top-left corner of the img is at (this.x, this.y)
+    // Width and height are this.size x this.size
+    image(snowA, this.x, this.y, this.size, this.size);
+  }
 }
 
 __________________________________________________________;
