@@ -2,8 +2,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
 
-  for (let i = 0; i < 100; i++) {
-    fill(random(0), random(250), random(250), random(250));
+  for (let i = 0; i < 500; i++) {
+    fill(random(250), random(250), random(250), random(250));
     ellipse(random(windowWidth), random(windowHeight), random(100));
   }
 }
