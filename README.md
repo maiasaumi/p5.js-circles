@@ -1,10 +1,10 @@
 # Circle art with p5.js
 
-This is the art of circles using p5.js which I worked on in my first Tech Talk.
-p5.js is a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
+- This is the art of circles using p5.js which I worked on in my first Tech Talk.
+- p5.js is a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
 
-Youtube: https://youtu.be/lxfs3H3ad7s?t=3693
-Slide: https://docs.google.com/presentation/d/16jYN7jnhRIbF39oI9mY0s8k4WhhcuE1hvb9fBoME9c4/edit?usp=sharing
+- Youtube: https://youtu.be/lxfs3H3ad7s?t=3693
+- Slide: https://docs.google.com/presentation/d/16jYN7jnhRIbF39oI9mY0s8k4WhhcuE1hvb9fBoME9c4/edit?usp=sharing
 
 # Demo
 
